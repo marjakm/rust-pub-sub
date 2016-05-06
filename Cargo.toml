@@ -1,0 +1,8 @@
+[package]
+name = "pub_sub"
+version = "0.1.0"
+authors = ["Mattis Marjak <mattis.marjak@gmail.com>"]
+
+[dependencies]
+log = "*"
+thread_monitor = { git = "https://github.com/marjakm/rust-thread-monitor.git" }
